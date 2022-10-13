@@ -1,0 +1,12 @@
+spring:
+  messages:
+    basename: i18n/app
+    encoding: UTF-8
+  shell:
+    interactive:
+      enabled: false
+
+quiz:
+  locale: en
+  resource-file-name: /quiz_test1_${quiz.locale}.csv
+  min-score: 80
