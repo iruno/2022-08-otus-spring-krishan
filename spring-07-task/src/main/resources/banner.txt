@@ -1,0 +1,10 @@
+${AnsiColor.BLUE}
+   ____   _    _  _____  ______
+  / __ \ | |  | ||_   _||___  /
+ | |  | || |  | |  | |     / /
+ | |  | || |  | |  | |    / /
+ | |__| || |__| | _| |_  / /__
+  \___\_\ \____/ |_____|/_____|
+${AnsiColor.GREEN}
+Spring Boot ${spring-boot.version}
+${AnsiStyle.NORMAL}
