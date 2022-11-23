@@ -1,0 +1,6 @@
+${AnsiColor.BLUE}
+| o|_ ._ _ ._|_|
+|_||_)| (_||  _|
+${AnsiColor.GREEN}
+Spring Boot ${spring-boot.version}
+${AnsiStyle.NORMAL}

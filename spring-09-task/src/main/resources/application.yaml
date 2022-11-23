@@ -1,0 +1,7 @@
+spring:
+  messages:
+    basename: i18n/app
+    encoding: UTF-8
+
+app:
+  locale: en # en or ru
