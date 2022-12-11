@@ -34,18 +34,6 @@ public class BookServiceImpl implements BookService {
         return book;
     }
 
-    private Genre chooseGenre() {
-        genreService.printAll();
-        long genreId = io.readLong("choose_genre");
-        return genreService.getById(genreId);
-    }
-
-    private Author chooseAuthor() {
-        authorService.printAll();
-        long authorId = io.readLong("choose_author");
-        return authorService.getById(authorId);
-    }
-
     @Override
     public Book get() {
         Book book = getBookById();
@@ -102,5 +90,17 @@ public class BookServiceImpl implements BookService {
 
     private void print(Book book) {
         io.write(book.toString());
+    }
+
+    private Genre chooseGenre() {
+        genreService.printAll();
+        long genreId = io.readLong("choose_genre");
+        return genreService.getById(genreId);
+    }
+
+    private Author chooseAuthor() {
+        authorService.printAll();
+        long authorId = io.readLong("choose_author");
+        return authorService.getById(authorId);
     }
 }
