@@ -1,0 +1,14 @@
+spring:
+  messages:
+    basename: i18n/app
+    encoding: UTF-8
+  shell:
+    interactive:
+      enabled: false
+  sql:
+    init:
+      mode: always
+      data-locations: data.sql
+
+app:
+  locale: en # en or ru
